@@ -116,7 +116,7 @@ A fully functional **MERN stack ticketing system** with role-based dashboards fo
 
 ```bash
 # Clone the repo
-git clone https://github.com/aakash-gupta02/Help-Desk---poc
+git clone https://github.com/aakash-gupta02/Help-Desk---POC.git
 cd helpdesk-mern
 
 # Install frontend
