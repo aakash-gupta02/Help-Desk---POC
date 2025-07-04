@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #3066BE;         /* Royal Blue - Main Primary */
+  --color-secondary: #963464;       /* Deep Purple - Accent/Role Highlight */
+  --color-accent: #2AF5FF;          /* Electric Cyan - Accent or Highlight */
+  
+  --color-textPrimary: #0F172A;     /* Slate-900 */
+  --color-textSecondary: #64748B;   /* Slate-500 */
+
+  --color-bgLight: #FFFFFF;         /* Pure white */
+  --color-bgDark: #F1F5F9;          /* Slate-100 */
+
+  --color-border: #E2E8F0;          /* Slate-200 */
+  --color-warning: #DC2626;         /* Red-600 */
+  --color-link: #60AFFF;            /* Sky Blue - Hyperlinks & CTAs */
+
+  /* Optional Role-based colors (if you want to expand) */
+  --color-user: #60AFFF;
+  --color-operations: #3066BE;
+  --color-tech: #28C2FF;
+  --color-admin: #963464;
+}
+
