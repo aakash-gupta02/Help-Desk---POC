@@ -13,9 +13,9 @@ import { useAuth } from "../context/AuthContext";
 
 // Component placeholders
 import AdminMain from "../component/adminDashboard/AdminMain";
-// import AdminSettings from "../component/adminDashboard/AdminSettings";
-// import AdminDatabase from "../component/adminDashboard/AdminDatabase";
-// import AdminLogs from "../component/adminDashboard/AdminLogs";
+import AdminSettings from "../component/adminDashboard/AdminSettings";
+import AdminDatabase from "../component/adminDashboard/AdminDatabase";
+import AdminLogs from "../component/adminDashboard/AdminLogs";
 
 const AdminDashboard = () => {
   const [activeMenu, setActiveMenu] = useState("dashboard");
@@ -126,9 +126,9 @@ const AdminDashboard = () => {
         {/* Page Content */}
         <main className="flex-1 p-6 overflow-y-auto bg-bgDark">
           {activeMenu === "dashboard" && <AdminMain />}
-          {/* {activeMenu === "settings" && <AdminSettings />}
           {activeMenu === "database" && <AdminDatabase />}
-          {activeMenu === "logs" && <AdminLogs />} */}
+          {activeMenu === "settings" && <AdminSettings />}
+          {activeMenu === "logs" && <AdminLogs />}
         </main>
       </div>
     </div>
