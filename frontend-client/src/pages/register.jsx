@@ -23,7 +23,7 @@ export default function Register() {
     setError("");
 
     try {
-      await axios.post("http://localhost:3000/auth/register", formData);
+      await axios.post("https://help-desk-poc.onrender.com/auth/register", formData);
       navigate("/login");
     } catch (err) {
       setError(err.response?.data?.message || "Something went wrong");
